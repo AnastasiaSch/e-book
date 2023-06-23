@@ -1,0 +1,107 @@
+
+/*basis*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #333;
+    font-size: 1 em;
+    font-family: sans-serif;
+    margin: 1rem;
+    background-color: #fff;
+}
+h1 {
+padding-top: 3rem;
+}
+
+h1, h2 {
+    margin: 2rem 0 1rem 0;
+}
+
+.flex-container {
+    margin-bottom: 2rem;
+}
+
+/*flexbox*/
+.visible {
+    text-align: left;
+    padding: .5rem;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex-grow: 1;
+    padding: .5rem;
+}
+
+.flex-item + .flex-item {
+    margin-left: 1rem;
+}
+
+#menu {
+    padding: 1rem;
+    display: block;
+}
+
+#menuX {
+    background-color: rgb(58, 58, 146);
+    color:#fff;
+    padding: 16px;
+    display: none;
+}
+
+#menu.active {
+    padding: 1rem;
+    display: none;
+}
+
+#menuX.active {
+    background-color: rgb(58, 58, 146);
+    color:#fff;
+    padding: 16px;
+    display: block;
+}
+
+.menu_button {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.menu_buttonX {
+    background-color: rgb(58, 58, 146);
+    color: #fff;
+    float: right;
+    font-size: 1.1rem;
+}
+
+.icon {
+    padding-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.div_menu_x {
+    margin: 1rem 0 1.5rem 0;
+    background-color: rgb(58, 58, 146);
+    margin-left: -2.5rem;
+    padding: 1rem 0 1rem 1rem;
+}
+
+ul, li {
+    color: #fff;
+    list-style-type: none;
+    padding: 0 0 0.7rem 0.2rem;
+}
+
+ul li a {
+    color: #fff;
+   text-decoration: none;
+}
